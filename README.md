@@ -16,3 +16,4 @@ Overview of all supported Node.js components.
 | [`sphere-order-distribution`](https://github.com/sphereio/sphere-order-distribution) | [![Build Status](https://secure.travis-ci.org/sphereio/sphere-order-distribution.png?branch=master)](http://travis-ci.org/sphereio/sphere-order-distribution) |
 | [`sphere-express-impex`](https://github.com/sphereio/sphere-express-impex) | [![Build Status](https://secure.travis-ci.org/sphereio/sphere-express-impex.png?branch=master)](http://travis-ci.org/sphereio/sphere-express-impex) |
 | [`sphere-express-pdf`](https://github.com/sphereio/sphere-express-pdf) | [![Build Status](https://secure.travis-ci.org/sphereio/sphere-express-pdf.png?branch=master)](http://travis-ci.org/sphereio/sphere-express-pdf) |
+| [`sphere-category-sync`](https://github.com/sphereio/sphere-category-sync) | [![Build Status](https://secure.travis-ci.org/sphereio/sphere-category-sync.png?branch=master)](http://travis-ci.org/sphereio/sphere-category-sync) |
