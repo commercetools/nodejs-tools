@@ -5,6 +5,8 @@ table tbody td { vertical-align: middle; }
 .banner-big .logos .logo-node {}
 .banner-big .logos .plus { position: relative; top: -8px; font-size: 40px; margin: 0 20px; }
 .banner-big .logos .logo-sphere { position: relative; top: -15px; }
+.banner-big .logos .logo-sphere img { width: 60px; }
+.banner-big .logos .logo-sphere span { font-size: 40px; position: relative; top: 11px; }
 .banner-small { background-color: #00ba9f; color: #fff; text-align: center; }
 .banner-small h2 { font-weight: lighter; font-size: 20px; margin: 20px 0; }
 .banner-small a { color: #fff; text-decoration: underline; }
