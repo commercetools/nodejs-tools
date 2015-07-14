@@ -10,7 +10,7 @@ var GROUPS = [
       {
         name: 'sphere-category-sync',
         description: 'Manage your SPHERE.IO category tree',
-        published: false
+        published: true
       },
       {
         name: 'sphere-stock-import',
