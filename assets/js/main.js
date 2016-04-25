@@ -3,23 +3,28 @@ var GROUPS = [
     name: 'cli',
     packages: [
       {
+        name: 'sphere-node-cli',
+        description: 'A fast, performant, easy-to-use and stream-based CLI for commercetools platform',
+        published: true
+      },
+      {
         name: 'sphere-node-product-csv-sync',
-        description: 'Component to import, export and update your SPHERE.IO products via CSV.',
+        description: 'Component to import, export and update your commercetools platform products via CSV.',
         published: true
       },
       {
         name: 'sphere-category-sync',
-        description: 'Manage your SPHERE.IO category tree',
+        description: 'Manage your commercetools platform category tree',
         published: true
       },
       {
         name: 'sphere-stock-import',
-        description: "Import your stock information into SPHERE.IO's inventory from CSV or XML, with SFTP support!",
+        description: "Import your stock information into commercetools platform's inventory from CSV or XML, with SFTP support!",
         published: true
       },
       {
         name: 'sphere-order-export',
-        description: 'Quick and easy way to export your orders from SPHERE.IO into files, with SFTP support!',
+        description: 'Quick and easy way to export your orders from commercetools platform into files, with SFTP support!',
         published: true
       },
       {
@@ -39,12 +44,12 @@ var GROUPS = [
       },
       {
         name: 'sphere-stock-sync',
-        description: 'Component to automatically sync InventoryEntries between SPHERE.IO projects',
+        description: 'Component to automatically sync InventoryEntries between commercetools platform projects',
         published: false
       },
       {
         name: 'sphere-price-sync',
-        description: 'Using this component you can sync product prices from one SPHERE.IO project into another.',
+        description: 'Using this component you can sync product prices from one commercetools platform project into another.',
         published: false
       },
       {
@@ -59,12 +64,22 @@ var GROUPS = [
     packages: [
       {
         name: 'sphere-node-sdk',
-        description: 'Officially supported Node.js SDK library for working with the SPHERE.IO HTTP API, with OAuth2 support.',
+        description: 'Officially supported Node.js SDK library for working with the commercetools platform HTTP API, with OAuth2 support.',
         published: true
       },
       {
         name: 'sphere-node-utils',
-        description: 'Officially supported Node.js SDK library for working with the SPHERE.IO HTTP API, with OAuth2 support.',
+        description: 'Officially supported Node.js SDK library for working with the commercetools platform HTTP API, with OAuth2 support.',
+        published: true
+      },
+      {
+        name: 'sphere-customer-import',
+        description: 'A library that helps with importing customers into the commercetools platform.',
+        published: true
+      },
+      {
+        name: 'sphere-product-type-import',
+        description: 'A library that helps with importing product-types into the commercetools platform.',
         published: true
       }
     ]
@@ -74,7 +89,7 @@ var GROUPS = [
     packages: [
       {
         name: 'sphere-express-impex',
-        description: 'Node.js GUI application for SPHERE.IO IMPEX, running on express.js and socket.io',
+        description: 'Node.js GUI application for commercetools platform IMPEX, running on express.js and socket.io',
         published: false,
         url: 'https://impex.sphere.io/'
       },
