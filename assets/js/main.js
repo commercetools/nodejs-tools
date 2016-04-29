@@ -89,7 +89,7 @@ var GROUPS = [
     packages: [
       {
         name: 'sphere-express-impex',
-        description: 'Node.js GUI application for commercetools platform IMPEX, running on express.js and socket.io',
+        description: 'Node.js GUI application for commercetools platform import and export tools (IMPEX), running on express.js and socket.io',
         published: false,
         url: 'https://impex.sphere.io/'
       },
