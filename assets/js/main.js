@@ -28,8 +28,28 @@ var GROUPS = [
         published: true
       },
       {
+        name: 'sphere-customer-import',
+        description: 'A library that helps with importing customers into the commercetools platform',
+        published: true
+      },
+      {
+        name: 'sphere-product-import',
+        description: 'A library that helps with importing product data into the commercetools platform',
+        published: true
+      },
+      {
         name: 'sphere-product-type-json-generator',
         description: "A command line tool for generating ProductTypes JSON representations from CSV templates.",
+        published: true
+      },
+      {
+        name: 'sphere-product-type-import',
+        description: "A library that helps with importing product-types into the commercetools platform.",
+        published: true
+      },
+      {
+        name: 'sphere-product-type-export',
+        description: "A library that helps with exporting product-types from the commercetools platform.",
         published: true
       },
       {
@@ -56,7 +76,7 @@ var GROUPS = [
         name: 'sphere-order-distribution',
         description: 'This component will distribute (sync) orders between master <-> retailer',
         published: false
-      }
+      },
     ]
   },
   {
@@ -91,7 +111,7 @@ var GROUPS = [
         name: 'sphere-express-impex',
         description: 'Node.js GUI application for commercetools platform import and export tools (IMPEX), running on express.js and socket.io',
         published: false,
-        url: 'https://impex.sphere.io/'
+        url: 'https://impex.commercetools.com/'
       },
       {
         name: 'sphere-express-pdf',
