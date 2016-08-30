@@ -1,1 +1,1 @@
-[Website](http://sphereio.github.io/nodejs)
+[Website](http://commercetools.github.io/nodejs-tools)

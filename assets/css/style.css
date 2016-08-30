@@ -14,12 +14,12 @@ table thead th.status { width: 55%; }*/
 }
 .package-groups .package-list .package-description { color: #a4a4a4; }
 
-.banner-big { text-align: center; padding: 50px 0; }
+.banner-big { text-align: center; padding: 50px 0 0; }
 .banner-big .logos {}
-.banner-big .logos .logo-node {}
+.banner-big .logos .logo-node { position: relative; top: -26px; }
 .banner-big .logos .plus { position: relative; top: -8px; font-size: 40px; margin: 0 20px; }
 .banner-big .logos .logo-sphere { position: relative; top: -15px; }
-.banner-big .logos .logo-sphere img { width: 60px; }
+.banner-big .logos .logo-sphere img { height: 100px; }
 .banner-big .logos .logo-sphere span { font-size: 40px; position: relative; top: 11px; }
 .banner-small { background-color: #00ba9f; color: #fff; text-align: center; }
 .banner-small h2 { font-weight: lighter; font-size: 20px; margin: 20px 0; }
